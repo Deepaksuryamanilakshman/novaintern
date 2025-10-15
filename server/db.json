@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "DeLyOegi90cs9fyJvBafV",
+      "name": "dfghj",
+      "email": "dfghjk@gmail.com",
+      "password": "$2a$10$9W3yk6L1fKGbTVYIMox0Mu0BvhUxbq7QgJZ4tSjR2idbyBeN44dLG",
+      "college": "dfghjk",
+      "year": "4",
+      "createdAt": "2025-10-15T19:11:16.212Z"
+    },
+    {
+      "id": "UzgCl1bcMQ0Tktoy0SL3v",
+      "name": "deepak",
+      "email": "surya@gmail.com",
+      "password": "$2a$10$MSxAbmDNyGHgtZWJTHuDM.G1uxCdDiGG5iU1SEogwlAIE4QnhTHkK",
+      "college": "asd",
+      "year": "3",
+      "createdAt": "2025-10-15T19:12:21.887Z"
+    }
+  ]
+}

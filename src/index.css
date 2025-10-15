@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom blob animation used by the component */
+.animate-blob{
+  animation: blob 8s infinite;
+}
+@keyframes blob{
+  0%{transform:translate(0px,0px) scale(1)}
+  33%{transform:translate(30px,-20px) scale(1.05)}
+  66%{transform:translate(-20px,20px) scale(0.95)}
+  100%{transform:translate(0px,0px) scale(1)}
+}
+
+
+/* Add this to your CSS (e.g., index.css or global.css)
+----------------------------------------------------- */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 5s ease infinite;
+}
